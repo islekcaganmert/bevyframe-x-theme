@@ -1,0 +1,231 @@
+{
+    "@imports": [
+        "https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@36,400,0,0",
+        "https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap"
+    ],
+    ".data": {
+        "visibility": "hidden",
+        "height": "0px",
+        "width": "0px",
+        "font-size": "0px"
+    },
+    "p:hover": {
+        "border": "none"
+    },
+    ".caution::after": {
+        "content": "var(--caution-content)",
+        "font-weight": "500",
+        "font-size": "15px",
+        "margin-left": "-30px",
+        "background-color": "#FF0000",
+        "z-index": "9999",
+        "position": "relative",
+        "padding-left": "4px",
+        "padding-right": "4px",
+        "border-radius": "10px",
+        "margin-top": "-50px"
+    },
+    ".textbox:focus": {
+        "outline": "none"
+    },
+    ".button:focus": {
+        "box-shadow": "inset 0 0 100px 100px #FFFFFF60",
+        "outline": "none"
+    },
+    ".button:hover": {
+        "box-shadow": "inset 0 0 100px 100px #FFFFFF60",
+        "outline": "none"
+    },
+    "a": {
+        "color": "inherit",
+        "text-decoration": "inherit"
+    },
+    "::-webkit-scrollbar": {
+        "width": "0px"
+    },
+    "#page-wrap": {
+        "width": "1300px",
+        "margin": "0 auto"
+    },
+    "textarea": {
+        "margin": "3px"
+    },
+    "textarea:focus": {
+        "outline": "none"
+    },
+    "body": {
+        "padding-top": "0px",
+        "font-family": [
+            "Libre Franklin"
+        ],
+        "overflow-x": "hidden",
+        "scroll-behavior": "smooth",
+        "background-color": "#FFFFFF",
+        "accent-color": "#1DA1F2",
+        "zoom": "110%",
+        "max-width": "1200px",
+        "margin-left": "auto",
+        "margin-right": "auto",
+        "overflow-y": "hidden"
+    },
+    "a:link": {
+        "color": "#1DA1F2 !important",
+        "text-decoration": "underline"
+    },
+    "a.noeffect:link": {
+        "color": "inherit !important",
+        "text-decoration": "unset !important"
+    },
+    ".the_box": {
+        "background-color": "#FFFFFF",
+        "border": "1px solid #80808030",
+        "border-radius": "10px",
+        "padding": "20px",
+        "padding-top": "0px",
+        "padding-bottom": "10px"
+    },
+    ".post": {
+        "background-color": "#FFFFFF",
+        "border": "1px solid #80808030",
+        "border-top": "0px",
+        "border-radius": "0px",
+        "padding": "20px",
+        "padding-top": "10px",
+        "padding-bottom": "10px",
+        "cursor": "pointer"
+    },
+    ".button": {
+        "border-radius": "25px",
+        "border": "none",
+        "background-color": "#1DA1F2",
+        "color": "#FFFFFF",
+        "width": "400px",
+        "height": "50px",
+        "font-size": "20px",
+        "cursor": "pointer"
+    },
+    ".button.small": {
+        "border-radius": "15px",
+        "width": "150px",
+        "height": "50px",
+        "font-size": "15px"
+    },
+    ".button.mini": {
+        "border-radius": "15px",
+        "width": "100px",
+        "height": "30px",
+        "font-size": "15px"
+    },
+    ".textbox": {
+        "border-radius": "5px",
+        "border": "1px solid #808080A0",
+        "background-color": "#FFFFFF",
+        "color": "#000000",
+        "width": "380px",
+        "max-width": "380px",
+        "height": "50px",
+        "font-size": "20px",
+        "padding-left": "10px",
+        "padding-right": "10px",
+        "font-family": [
+            "Libre Franklin"
+        ]
+    },
+    "nav.Navbar": {
+        "position": "relative",
+        "height": "100%",
+        "top": "20px",
+        "bottom": "20px",
+        "left": "10px",
+        "width": "60px",
+        "max-width": "1000px",
+        "z-index": "9999",
+        "padding-right": "5px",
+        "border-radius": "10px",
+        "float": "left",
+        "margin-right": "20px"
+    },
+    ".root": {
+        "float": "left",
+        "width": "calc(100% - 85px)",
+        "overflow-y": "scroll",
+        "height": "100vh"
+    },
+    ".material-symbols-rounded": {
+            "font-variation-settings": "'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 30"
+    },
+    ".material-symbols-filled": {
+            "font-variation-settings": "'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 30 !important"
+    },
+    "nav.Navbar a.titleicon": {
+        "text-align": "center",
+        "text-decoration": "none",
+        "padding-left": "10px",
+        "filter": "drop-shadow(1px 1px 1px #0084FF)"
+    },
+    "nav.Navbar a": {
+        "text-align": "center",
+        "text-decoration": "none",
+        "color": "#FFFFFF"
+    },
+    "nav.Navbar a button": {
+        "background-color": "#00000000",
+        "border-radius": "15px",
+        "color": "#000000",
+        "border": "none",
+        "padding": "14px 16px",
+        "align-items": "left",
+        "cursor": "pointer"
+    },
+    "img": {
+        "max-width": "100%",
+        "max-height": "100px",
+        "border-radius": "10px"
+    },
+    "@media (max-width: 880px)": {
+        "nav.Navbar": {
+            "visibility": "hidden",
+            "height": "0px",
+            "width": "0px"
+        },
+        ".root": {
+            "position": "fixed",
+            "top": "80px",
+            "left": "0px",
+            "right": "0px",
+            "bottom": "80px",
+            "width": "calc(100% + 18px)",
+            "overflow-y": "scroll"
+        },
+        ".titleicon": {
+            "position": "fixed",
+            "top": "10px",
+            "left": "calc(50vw - 48px)",
+            "visibility": "visible"
+        }
+    },
+    "@media (prefers-color-scheme: dark)": {
+        "body": {
+            "color": "#FFFFFF",
+            "background-color": "#14202b",
+            "accent-color": "#1DA1F2"
+        },
+        ".the_box": {
+            "background-color": "#14202b"
+        },
+        ".post": {
+            "background-color": "#14202b"
+        },
+        ".textbox": {
+            "background-color": "#14202b",
+            "color": "#FFFFFF"
+        },
+        ".textbox.grey": {
+            "background-color": "#14202b",
+            "color": "#FFFFFF"
+        },
+        "nav a button span": {
+            "color": "#ffffff"
+        }
+    }
+}
