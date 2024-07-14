@@ -40,6 +40,10 @@
         "color": "inherit",
         "text-decoration": "inherit"
     },
+    "a:visited": {
+        "color": "inherit",
+        "text-decoration": "inherit"
+    },
     "::-webkit-scrollbar": {
         "width": "0px"
     },
